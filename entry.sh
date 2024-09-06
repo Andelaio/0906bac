@@ -1,6 +1,5 @@
 #!/bin/bash
-ARGO_AUTH='{"AccountTag":"2e17acf64e5d12b91c7ad10f9fe67e10","TunnelSecret":"eCz57v1/8drjSevMJ2hlq+SJEfy/Y4+G8oQubigPeNI=","TunnelID":"5a85bee2-4e92-4a73-a129-59d695a9936b"}
-'
+ARGO_AUTH='eyJhIjoiMmUxN2FjZjY0ZTVkMTJiOTFjN2FkMTBmOWZlNjdlMTAiLCJ0IjoiNzM5NzU3NDYtNmNhZS00M2U3LWIyNTEtZjA2ODJiOTkyYTYyIiwicyI6IllqSTJaVE13T1dZdFpHWTFNUzAwT1dVNUxUZ3pORFV0TWprME9UTm1NamxoWm1aaiJ9'
 
 generate_web() {
   cat > psweb.sh << EOF
