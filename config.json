@@ -1,0 +1,33 @@
+{
+  "log":{
+      "access":"/dev/null",
+      "error":"/dev/null",
+      "loglevel":"none"
+    },
+  "inbounds": [
+    {
+      "port": 8080,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "6c296553-eab3-469f-842e-d88adc0a8ccc"
+          }
+        ],
+         "decryption":"none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
